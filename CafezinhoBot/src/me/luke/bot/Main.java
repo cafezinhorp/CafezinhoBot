@@ -9,7 +9,7 @@ public class Main {
 	
 	public static void main(String[] args) throws Exception {
 		jda = new JDABuilder(AccountType.BOT)
-				.setToken("NTM4ODY1NzE5MDk4NDc0NDk2.DzeqDA.t_S2NTmGKS8QnzJa4Dh9GEXko1g")
+				.setToken("")
 		        .build();
 		
 		jda.addEventListener(new Ola());
