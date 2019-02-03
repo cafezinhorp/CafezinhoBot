@@ -10,7 +10,7 @@ public class Ola extends ListenerAdapter {
 		
 		if(args[0].equalsIgnoreCase( "salve")) {
 			if(!event.getMember().getUser().isBot()) {
-			event.getChannel().sendMessage( "salve macho").queue();
+			event.getChannel().sendMessage( "salve " + event.getMember().getNickname() + "!").queue();
 		}
 	}
 	}
