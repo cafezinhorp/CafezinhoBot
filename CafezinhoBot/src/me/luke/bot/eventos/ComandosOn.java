@@ -18,6 +18,7 @@ public class ComandosOn extends ListenerAdapter {
 			
 		}
 		event.getChannel().sendMessage( "Atualmente" + online + " Pessoas Online " + event.getGuild().getMembers().size() + " membros no server").queue();
+		//d
 	}
 	}
 }
