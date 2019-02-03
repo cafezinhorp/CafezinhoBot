@@ -3,6 +3,7 @@ package me.luke.bot;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
+import me.luke.bot.eventos.ComandosOn;
 import me.luke.bot.eventos.Ola;
 public class Main {
 	private static JDA jda;
@@ -13,6 +14,7 @@ public class Main {
 		        .build();
 		
 		jda.addEventListener(new Ola());
+		jda.addEventListener(new ComandosOn());
 		
 	}
 
